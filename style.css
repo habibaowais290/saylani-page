@@ -1,0 +1,373 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#head {
+    background-color: #316DC3;
+}
+.header ,.header-text ,.header-btn {
+    margin-top: 20px;
+    
+}
+
+.header-icons a {
+    text-decoration: none;
+}
+.header-icons ul li {
+    list-style: none;
+    display: inline;
+}
+.header-icons .fa {
+    color: white;
+    margin: 20px 0 0 10px;
+}
+.header-text {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.header-btn {
+   margin: 15px 0 10px 0;
+}
+
+.header-btn a {
+    text-decoration: none !important;
+    color: #427900 !important;
+ }
+.btn-default {
+    width: 100px;
+    height: 30px;
+    background-color: whitesmoke !important;
+    border:  #427900 solid 1px !important;
+    font-size: 11px !important;
+
+
+}
+
+
+/* ----------navigation-bar------------ */
+#nav-bar {
+    z-index: 10;
+    top: 0;
+    background-color: rgb(252, 252, 252);
+    position: sticky;
+}
+
+.navbar-brand img {
+    height: 45px;
+   
+}
+
+#nav-bar .navbar-nav li {
+    padding: 7px 7px; 
+}
+
+#nav-bar .navbar-nav li a {
+    float: left;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 6px 6px;
+    position: relative;
+}
+
+.dropdown-menu ,.navbar-toggler {
+    border : none !important;
+}
+
+.dropdown-item {
+    border-bottom : 1px rgba(190, 190, 190, 0.493) solid !important;
+}
+
+#nav-bar ul li a:hover {
+    color: white!important;
+    background-color: #316DC3;
+    border-radius: 5px;
+}
+
+.nav-link {
+    color: #555555 !important;
+    font-weight: 400;  
+}
+
+/* ----------marquee------------ */
+
+#marq {
+  background-color: white;
+  color: white;
+  font-size: 13px;
+  font-weight: normal; 
+  margin-top: 9px;
+}
+.marq-text {
+    background-color: #316DC3;
+    height: 30px;
+    padding-top: 5px;
+}
+#marq a {
+    text-decoration: none;
+    color: blue;
+}
+#marq span {
+    color: chartreuse;
+}
+/* ----------introduction------------ */
+
+ .text-intro h1 {
+     margin-top: 50px;
+     color: #316DC3;
+     text-transform: uppercase;
+     bottom: 10px;
+     font-family: serif ;
+     font-size: 30px ;
+     font-weight: 600;
+ }
+ 
+ .text-intro span {
+     color: #427900; 
+     font-family: serif; 
+     font-size: 30px;
+     font-weight: 600; 
+ }
+ .text-intro img {
+     width: 35px;
+     
+ }
+.para {
+    color: rgb(100, 100, 100);
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 25px;
+    text-align: justify;
+    font-weight: normal;
+    font-family: sans-serif !important;
+ }
+ 
+/* ----------Services------------ */
+#services {
+    background-color: #316DC3;
+    color: #f9f9f9;
+    margin-top: 50px;
+    padding-bottom: 40px;
+
+}
+#services img {
+    width: 18%;
+    margin-bottom: 10px;  
+}
+#services h1 {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: monospace;
+}
+#services h5 {
+    font-size: 18px;
+}
+
+#services span {
+    color: chartreuse;
+    font-weight: bold;
+    font-size: 18px;
+}
+ .dastrakhan {
+    padding-top: 60px;
+    height: 225px;
+}
+/* ----------Plans------------ */
+#plans {
+    background-color: #efefef;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #316DC3;
+    text-transform: uppercase;
+    font-family: serif;
+}
+#plans h1 {
+    font-size: 37px;
+    font-family: serif ;
+}
+
+#plans span {
+    color: #427900;
+    font-family: serif ;
+}
+
+#plans img {
+    margin-top: 3px;
+    margin-bottom: 2%;
+} 
+.sadqah {
+    padding-top: 30px;
+    height: 200px;
+    
+}
+.sadqah h2 {
+    font-family: serif;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+.sadqah img{
+    width: 20%;
+}
+.sadqah:hover {
+    background-color: white;
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+/* ----------Plans------------ */
+#projects {
+    text-transform: uppercase;
+    padding-top: 60px;   
+}
+#projects h2 {
+    color: #316DC3;
+    font-size: 23px;
+    font-family: serif;
+    margin-bottom: 20px;
+}
+
+#projects h3 {
+   font-weight: normal; 
+   color: #316DC3;
+   display: inline-flex;
+   margin: 30px 0 0 10px;
+   font-size: 18px;
+   font-family: serif;
+}
+.hepatitis img {
+    width: 40px;
+   
+}
+.hepatitis {
+    height: 70px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    background-color: rgba(238, 238, 238, 0.7);
+    border: 1px rgba(197, 197, 197, 0.5) solid; 
+}
+
+
+ .up-marq {
+    color: rgb(109, 109, 109);
+    font-size: 12px;
+    line-height: 20px;
+    text-align: justify;
+    font-family: sans-serif;
+    
+    
+}
+.up-marq a {
+    text-decoration: none;
+    color: blue;
+} 
+
+/* ----------Images------------ */
+
+#gallery {
+   margin-top: 70px;
+
+  
+}
+#gallery h2 {
+   color: #316DC3;
+   font-family: serif;
+   text-transform: uppercase;
+   font-size: 25px;
+   font-weight: 600;
+   margin-bottom: 30px;
+}
+#gallery span{
+    color: #427900;
+    font-family: serif;
+}
+
+.item{
+    left: 0;
+    top: 0;
+    position: relative;
+    overflow: hidden;
+    margin-top:50px;
+    
+}
+.item img{
+   
+    -webkit-transition: 0.6s ease;
+      transition: 0.6s ease;
+      
+}
+.item img:hover{
+    -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+
+}
+.img-thumbnail{
+    border:0px;
+    border-radius:0px;
+}
+/* ----------Footer------------ */
+
+#footer {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    margin-top: 5%;
+}
+
+.footer-text p {
+    margin-top: 8%;
+    font-size: 14px;  
+}
+ .footer-text .fa {
+  color: #427900;
+}
+.links h5 {
+    margin-top: 20%;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.links h5::after {
+    content: "";
+    background-color: #427900;
+    width: 70px;
+    height: 3px;
+    display: block;
+
+}
+
+.icons h4 {
+    text-transform: capitalize;
+    margin-top: 6%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.icons .fa  {
+    background-color: #316DC3;
+    width: 28px;
+    height: 25px;
+    padding-top: 5px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 100%;
+    
+}
+
+.icons li {
+    display:inline-flex ;
+} 
+
+#ending {
+    background-color: #316DC3;
+}
+.end {
+color: white;
+font-size: 12px;
+font-weight: 600;
+margin-top: 10px;
+}
